@@ -10,4 +10,13 @@ def falling(n, k):
     >>> falling(4, 0)
     1
     """
-    pass
+    count=1
+    for x in range(k):
+        count*= n
+        n-=1
+    print(count)
+
+falling(6,3)
+falling(4,3)
+falling(4,1)
+falling(4,0)

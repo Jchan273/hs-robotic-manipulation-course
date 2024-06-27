@@ -9,5 +9,19 @@ def add_3_mul_4(num):
     num*=4
     return num
     
+def calc_area(length=1,width=1):
+    """
+    Compute the area of a rectangle
+    >>> calc_area()
+    1
 
-#print(add_3_mul_4(5))
+    >>> calc_area(3)
+    3
+
+    >>> calc_area(12,3)
+    36
+    """
+
+
+    print("Calculating area of the rectangle...")
+    return length * width

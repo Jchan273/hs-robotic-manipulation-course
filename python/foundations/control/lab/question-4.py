@@ -9,4 +9,4 @@ def plus_10(n):
   >>> n 
   13
   """
-  pass
+  return n+10

@@ -9,4 +9,8 @@ def remove_nth_char(s, n):
   	>>> remove_nth_char('robot`, 2)
   	'root'
 	  """
-    pass
+    print(s[:n]+s[n+1:])
+
+remove_nth_char("cart",0)
+remove_nth_char("robot",2)
+	

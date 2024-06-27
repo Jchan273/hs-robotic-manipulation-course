@@ -11,4 +11,8 @@ def indoor(s):
     >>> indoor('bEaCh DAY')
     'beach day'
     """
-    pass
+    print(s.lower())
+
+indoor("Hello!")
+indoor("123")
+indoor("bEaCh DAY")
